@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content-type>
+  <name>News Item</name>
+  <id>org.example.component.NewsItem</id>
+  <fields>
+    <field name="title_s" type="text" label="Title"/>
+    <field name="summary_s" type="textarea" label="Summary"/>
+    <field name="date_dt" type="date" label="Date"/>
+  </fields>
+</content-type>

@@ -1,3 +1,5 @@
+<app-navbar></app-navbar>
+
 <div class="sidenav-link">
   <a *ngFor="let item of navItems"
     [routerLink]="item.url"
@@ -11,6 +13,4 @@
 
 <router-outlet></router-outlet>
 
-<footer>
-  {{ copyright }}
-</footer>
+<app-footer></app-footer>

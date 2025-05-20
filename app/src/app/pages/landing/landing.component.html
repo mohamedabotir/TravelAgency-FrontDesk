@@ -1,4 +1,3 @@
-<app-navbar></app-navbar>
 <div class="landing">
   <h1>Welcome to Our Store</h1>
   <p>Explore our services below</p>
@@ -6,5 +5,34 @@
     *ngFor="let service of services"
     [data]="service">
   </app-service>
+  <ng-template [ngIf]="model && model.craftercms && model.craftercms.id">
+  <div [ngAttributes]="getIce({ model })">
+    <h1 [ngAttributes]="getIce({ model, fieldId: 'title_s' })">
+      {{ model['title_s'] }}
+    </h1>
+
+    <p [ngAttributes]="getIce({ model, fieldId: 'description_s' })">
+      {{ model['description_s'] }}
+    </p>
+
+    <div [ngAttributes]="getIce({ model, fieldId: 'news_o' })">
+      <h2>Latest News</h2>
+      <div
+        *ngFor="let news of model['news_o']; index as i"
+        [ngAttributes]="getIce({ model, fieldId: 'news_o', index: i })"
+      >
+        <div [ngAttributes]="getIce({ model: news })">
+          <h3 [ngAttributes]="getIce({ model: news, fieldId: 'title_s' })">
+            {{ news['title_s'] }}
+          </h3>
+          <p [ngAttributes]="getIce({ model: news, fieldId: 'summary_s' })">
+            {{ news['summary_s'] }}
+          </p>
+          <small>{{ news['date_dt'] | date }}</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
 </div>
-<app-footer></app-footer>

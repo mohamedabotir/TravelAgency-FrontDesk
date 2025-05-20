@@ -28,4 +28,5 @@ content: any;
   constructor(private router: Router) {
 super(router);
   }
+
 }
