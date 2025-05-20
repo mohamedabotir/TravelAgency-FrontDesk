@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<content-type>
-  <name>News Item</name>
-  <id>org.example.component.NewsItem</id>
-  <fields>
-    <field name="title_s" type="text" label="Title"/>
-    <field name="summary_s" type="textarea" label="Summary"/>
-    <field name="date_dt" type="date" label="Date"/>
-  </fields>
-</content-type>
+<component>
+  <content-type>/component/news-item</content-type>
+  <display-template/>
+  <no-template-required>true</no-template-required>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>0075</objectGroupId>
+  <objectId>b887701f-de8c-43ea-ab7b-331ae9f26416</objectId>
+  <internal-name>News Item</internal-name>
+  <file-name>b887701f-de8c-43ea-ab7b-331ae9f26416.xml</file-name>
+  <folder-name/>
+  <createdDate>2025-05-20T10:00:00.000Z</createdDate>
+  <createdDate_dt>2025-05-20T10:00:00.000Z</createdDate_dt>
+  <lastModifiedDate>2025-05-20T10:01:00.000Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-05-20T10:01:00.000Z</lastModifiedDate_dt>
+  
+  <title_s><![CDATA[Breaking News: Angular + CrafterCMS Integrated]]></title_s>
+  <summary_s><![CDATA[We just connected Angular components with CrafterCMS using fully reusable CMS-driven content.]]></summary_s>
+  <date_dt><![CDATA[2025-05-20T00:00:00Z]]></date_dt>
+</component>
