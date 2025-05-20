@@ -1,0 +1,31 @@
+.service {
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.service h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.service p {
+  margin: 0.25rem 0;
+  color: #4a5568;
+}
+
+.service .price {
+  font-weight: bold;
+  color: #2d3748;
+  margin-top: 0.5rem;
+}

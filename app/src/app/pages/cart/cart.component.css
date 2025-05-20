@@ -1,0 +1,13 @@
+.cart {
+  padding: 2rem;
+  text-align: center;
+}
+
+.cart h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cart p {
+  color: #718096;
+}

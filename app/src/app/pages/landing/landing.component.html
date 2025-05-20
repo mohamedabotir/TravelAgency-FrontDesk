@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+<div class="landing">
+  <h1>Welcome to Our Store</h1>
+  <p>Explore our services below</p>
+  <app-service
+    *ngFor="let service of services"
+    [data]="service">
+  </app-service>
+</div>
+<app-footer></app-footer>

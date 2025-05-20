@@ -1,0 +1,21 @@
+.landing {
+  padding: 2rem;
+  text-align: center;
+}
+
+.landing h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.landing p {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+
+.landing app-service {
+  display: block;
+  margin: 1rem auto;
+  max-width: 600px;
+}
